@@ -25,3 +25,5 @@ units = systemd.list_units()
 
 for unit in units:
     services[unit[0]] = SystemdUnitInfo(*unit)
+
+pprint(services, indent=4)
