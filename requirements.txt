@@ -1,0 +1,3 @@
+Cython==3.0.10
+sdbus==0.12.0
+sdbus-systemd==1.0.0
